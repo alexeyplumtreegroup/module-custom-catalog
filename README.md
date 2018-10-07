@@ -11,7 +11,7 @@
     ],
 
 ```
-2. ``composer require alexeyplumtreegroup/module-custom-catalog:dev-master``
+2. ``composer require alexeyplumtreegroup/module-custom-catalog``
 
 3. ``docker-compose run cli magento-command setup:upgrade``
 
