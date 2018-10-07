@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!--<preference for="AlTayer\CustomCatalog\Api\CustomProductRepositoryInterface" type="AlTayer\CustomCatalog\Model\CustomProductRepository" />
+    <preference for="AlTayer\CustomCatalog\Api\Data\CustomProductInterface" type="AlTayer\CustomCatalog\Model\CustomProduct" />
+    <preference for="AlTayer\CustomCatalog\Api\Data\CustomProductSearchResultsInterface" type="Magento\Framework\Api\SearchResults" />-->
+    <preference for="AlTayer\CustomCatalog\Api\NewInterface" type="AlTayer\CustomCatalog\Model\NewRepository" />
+</config>    
