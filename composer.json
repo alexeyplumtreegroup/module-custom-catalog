@@ -2,15 +2,7 @@
     "name": "alexeyplumtreegroup/module-custom-catalog",
     "description": "N/A",    
     "type": "magento2-module",
-    "version": "1.0.0",
-    "extra": {
-        "map": [
-            [
-                "*",
-                "AlTayer/CustomCatalog"
-            ]
-        ]
-    },    
+    "version": "1.0.0",   
     "autoload": {
         "files": [
             "registration.php"
