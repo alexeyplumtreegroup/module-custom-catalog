@@ -11,13 +11,9 @@
     ],
 
 ```
-2. ``docker-compose run cli bash``
+2. ``composer require alexeyplumtreegroup/module-custom-catalog``
 
-3. ``composer require alexeyplumtreegroup/module-custom-catalog:dev-master``
-
-4. exit  from cli
-
-5. ``docker-compose run cli magento-command setup:upgrade``
+3. ``docker-compose run cli magento-command setup:upgrade``
 
 # How to test API customization
 
