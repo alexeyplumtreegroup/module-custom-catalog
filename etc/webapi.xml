@@ -15,7 +15,7 @@
             <resource ref="anonymous" />
         </resources>
     </route>
-    <route url="/V1/product/update/:id" method="PUT">
+    <route url="/V1/product/update/" method="PUT">
         <service class="AlTayer\CustomCatalog\Api\NewInterface" method="update" />
         <resources>
             <resource ref="anonymous" />

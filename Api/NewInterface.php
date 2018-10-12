@@ -13,4 +13,12 @@ interface NewInterface extends ProductRepositoryInterface
      */
     public function getByVPN($vpn);
 
+    /**
+     * update product by id
+     *
+     * @param mixed $data
+     * @return void
+     */
+    public function update($data);
+
 }

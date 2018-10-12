@@ -1,6 +1,5 @@
 {
     "name": "alexeyplumtreegroup/module-custom-catalog",
-    "minimum-stability": "stable",
     "description": "N/A",    
     "type": "magento2-module",
     "version": "1.0.0",   
