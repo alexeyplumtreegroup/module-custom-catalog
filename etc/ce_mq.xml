@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Rcason_Mq:etc/ce_mq.xsd">
+    <ceBroker name="amqp" implementationInstance="Rcason\MqAmqp\Model\AmqpBroker" />
+    <ceQueue name="product.update" broker="amqp"
+             messageSchema="mixed"
+             consumerInterface="AlTayer\CustomCatalog\Model\ApiConsumer"/>
+</config>
