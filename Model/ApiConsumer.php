@@ -30,7 +30,7 @@ class ApiConsumer implements \Rcason\Mq\Api\ConsumerInterface
 
         $product->setData('vendor_product_number',  $productData->vpn);
         $product->setData('copy_write_info', $productData->copywrite_info);
-        $product->setStoreId(0);
+        $product->setStoreId($productData->store_id);
         $product->save();
     }
 
